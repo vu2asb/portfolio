@@ -1,0 +1,7 @@
+Goto the project folder, then use following commands:
+$ git init
+$ git add .
+$ git branch ...to check branch then change it to main as follows
+$ git branch -M main
+$ git remote add origin http://github.com/vu2asb/portfolio.git
+$ git push -u origin main

@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import { useState } from 'react';
 import Sidebar from "../components/Sidebar";
 import Publications from "../components/Publications";
+import UpSkill from "../components/UpSkill";
 
 
 // const metadata = {
@@ -35,6 +36,7 @@ export default function Home() {
         <Hero />
         <About />
         <Services />
+        <UpSkill />
         <Publications />
         <Contact />
       </main>

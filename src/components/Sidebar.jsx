@@ -17,13 +17,24 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
 
             {/* Sidebar Links */}
             <div className="flex flex-col place-items-center gap-4 text-[28px]">
-                {["Home", "About", "Services", "Blogs", "Upskill", "Contact"].map(
-                    (item, index) => (
-                        <a key={index} className="hover:text-[#FF4D41]" href="#">
-                            {item}
-                        </a>
-                    )
-                )}
+                {[
+                    { name: "Home", link: "/" },
+                    { name: "About", link: "#myAbout" },
+                    { name: "Services", link: "#myServices" },
+                    { name: "Blogs", link: "/blogs" },
+                    { name: "Upskill", link: "#myUpSkill" },
+                    { name: "Publications", link: "#myPublications" },
+                    { name: "Contact", link: "#myContactUs" },
+                ].map((item, index) => (
+                    <a 
+                        key={index} 
+                        href={item.link} 
+                        className="hover:text-[#FF4D41]"
+                        onClick={toggleSidebar} // Close sidebar when clicking a link
+                    >
+                        {item.name}
+                    </a>
+                ))}
             </div>
         </div>
     );

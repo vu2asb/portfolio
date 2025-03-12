@@ -1,6 +1,6 @@
 import React from 'react'
-import Heading from "@/components/Heading"
-import Button from "@/components/MyButton"
+import Heading from "../components/Heading"
+
 
 const UpSkill = () => {
     return (

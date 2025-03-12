@@ -7,23 +7,21 @@ import Image from "next/image";
 const blogPosts = [
   {
     id: "blog-1",
-    title: "The Future of Web Development",
-    image: "/images/blog1.jpg",
+    title: "Building a Profitable Software Services Business - Series",
+    image: "/blogs/Building a Profitable Software Services Business.jpg",
     excerpt: "A deep dive into emerging web development trends...",
-    content: `## Introduction
-    The world of web development is evolving rapidly...`,
-    date: "2025-03-12",
-    author: "John Doe",
+    content: `## Introduction`,
+    date: "November 17, 2023",
+    author: "Ashok Singh",
   },
   {
     id: "blog-2",
-    title: "How to Scale Your Next.js App",
-    image: "/images/blog2.jpg",
+    title: "5 Effective Strategies for Boosting Gross Margin and Driving Business Growth",
+    image: "/blogs/gross-margin.png",
     excerpt: "Scaling your Next.js application is crucial for performance...",
-    content: `## Why Scaling Matters
-    As your app grows...`,
-    date: "2025-03-10",
-    author: "Jane Smith",
+    content: `## Why Gross Margin Matters`,
+    date: "May 3, 2023", 
+    author: "Ashok Singh",
   },
 ];
 
@@ -54,6 +52,8 @@ export default function BlogPage() {
             width={800}
             height={400}
             className="rounded-lg my-6 w-full"
+            
+            
           />
           <div className="prose max-w-none">{selectedPost.content}</div>
         </div>
