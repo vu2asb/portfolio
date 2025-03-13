@@ -32,7 +32,7 @@ const Hero = () => {
                 <div className="bg-[#FF4D41] h-[2px] w-[40px] mt-6"></div>
                 <div className="mt-4 text-xl">
                     <p>
-                        Software Dlivery Management Consultant | Coach | Advisor
+                        Software Delivery Management Consultant | Advisor
                     </p>
                     <div>
                         <a href="#myAbout" className="btn bg-[#FF4D41] text-slate-100 px-4 py-2 rounded inline-block mt-10 font-medium border border-[#FF4D41] hover:bg-transparent hover:text-[#FF4D41] transition duration-200">Know More ...</a>

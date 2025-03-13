@@ -9,12 +9,12 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px] text-xl text-slate-800">
 
                 <div>
-                    <img className="w-[800px]" src="/headshot-sharp.png" alt="about me image" />
+                    <img className="w-[800px]" src="/headshot-enhanced.png" alt="about me image" />
                 </div>
 
                 <div>
-                    <div className="mt-5">
-                        <span className="font-bold text-[28px]">
+                    <div className="mt-5 mb-2">
+                        <span className="font-bold text-[22px]">
                             Introduction -
                         </span>
                         <span>
@@ -22,6 +22,7 @@ const About = () => {
                         </span>
 
                     </div>
+
                     <div className="flex flex-col gap-2">
                         <div>
                             <span className="font-bold">
@@ -53,16 +54,16 @@ const About = () => {
 
                     </div>
                     <div className="mt-5">
-                        <span className="font-bold text-[26px]">
-                            Professional Background
+                        <span className="font-bold text-[22px]">
+                            Professional Background - 
                         </span>
                         <span>
                             I have held senior delivery leadership roles at industry-leading organizations, including Dell, Perot Systems, HPS, and CMC Ltd. (now part of TCS), as well as various small and medium-sized software firms. This diverse experience equips me to understand and address the unique challenges faced by businesses of all sizes.
                         </span>
                     </div>
                     <div className="mt-5">
-                        <span className="font-bold text-[26px]">
-                            Beyond Work
+                        <span className="font-bold text-[22px]">
+                            Beyond Work - 
                         </span>
                         <span>
                             When I’m not working, I enjoy exploring electronics as a hobby, watching documentaries, savoring street food, and traveling to new destinations.

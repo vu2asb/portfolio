@@ -9,7 +9,7 @@ const UpSkill = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px] text-xl text-slate-800">
 
                 <div>
-                    <img className="w-[800px]" src="/udemy-course.png" alt="Udemy course photo" />
+                    <img className="w-[800px]" src="/udemy-course-hifi.png" alt="Udemy course photo" />
                 </div>
                 <div>
                     <p className="text-[20px] font-semibold">

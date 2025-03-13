@@ -7,7 +7,8 @@ import Heading from "../components/Heading"
 const Contact = () => {
     return (
         <section id="myContactUs" className="container mx-auto py-10 px-4">
-            <Heading title="Contact Us" />
+            <Heading title="Contact Us"/>
+            <h3 className="mt-0 pb-8 font-semibold">Tell me about the delivery problem you’re facing, and let’s find a solution.</h3>
 
             <form
                 action="https://api.web3forms.com/submit"
@@ -55,7 +56,7 @@ const Contact = () => {
                 <textarea
                     rows={6}
                     name="message"
-                    placeholder="Your message ..."
+                    placeholder="What software delivery challenge would you like to address? ..."
                     className="contact-inputs inputStyle border border-[#FF4D41] w-full rounded-[5px] px-4 py-2"
                     required
                 />
