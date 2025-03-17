@@ -8,7 +8,7 @@ const NavBar = ({toggleSidebar}) => {
     return (
         <div className="bg-slate-100 fixed top-0 w-[100%] z-30">
             <div className="container mx-auto flex justify-between items-center px-4 py-4">
-                <div className="text-[24px]">
+                <div className="text-[22px]">
                     Ashok Singh
                 </div>
                 <div className="hidden md:flex gap-4">
@@ -27,9 +27,7 @@ const NavBar = ({toggleSidebar}) => {
                     <Link href="#myUpSkill" className="hover:text-[#FF4D41]">
                         UpSkill
                     </Link>
-                    <Link href="#myPublications" className="hover:text-[#FF4D41]">
-                        Publications
-                    </Link>
+
                     <Link href="#myContactUs" className="hover:text-[#FF4D41]">
                         Contact
                     </Link>

@@ -15,7 +15,7 @@ import { GiTreeGrowth } from "react-icons/gi";
 
 const Services = () => {
     return (
-        <section id="myServices" className="container mx-auto py-10 px-4">
+        <section id="myServices" className="container mx-auto py-5 px-4">
             <Heading title="Services" />
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="shadow-lg flex flex-col gap-4 px-8 py-10 bg-[#FF4D41] text-slate-100">

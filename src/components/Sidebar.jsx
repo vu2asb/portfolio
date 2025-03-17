@@ -23,7 +23,6 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                     { name: "Services", link: "#myServices" },
                     { name: "Blogs", link: "/blogs" },
                     { name: "Upskill", link: "#myUpSkill" },
-                    { name: "Publications", link: "#myPublications" },
                     { name: "Contact", link: "#myContactUs" },
                 ].map((item, index) => (
                     <a 

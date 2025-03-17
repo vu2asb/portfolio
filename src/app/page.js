@@ -11,13 +11,6 @@ import Sidebar from "../components/Sidebar";
 import Publications from "../components/Publications";
 import UpSkill from "../components/UpSkill";
 
-
-// const metadata = {
-//   title: "Ashok | Delivery Management",
-//   description: "This is a description of my page", // Optional
-// };
-
-
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -27,23 +20,26 @@ export default function Home() {
   }
 
   return (
-    <div>
-      <header>
-      <NavBar toggleSidebar={toggleSidebar}/>
-      </header>
-      <main>
-      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
-        <Hero />
-        <About />
-        <Services />
-        <UpSkill />
-        <Publications />
-        <Contact />
-      </main>
-      <footer>
-        <Footer />
-      </footer>
-    </div>
+    <>
+      <div>
+        <header>
+          <NavBar toggleSidebar={toggleSidebar} />
+        </header>
+        <main>
+          <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
+          <Hero />
+          <About />
+          <Services />
+          <UpSkill />
+          <Publications />
+          <Contact />
+        </main>
+        <footer>
+          <Footer />
+        </footer>
+      </div>
+
+    </>
 
   );
 }
