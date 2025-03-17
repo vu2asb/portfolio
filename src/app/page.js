@@ -31,7 +31,6 @@ export default function Home() {
           <About />
           <Services />
           <UpSkill />
-          <Publications />
           <Contact />
         </main>
         <footer>
