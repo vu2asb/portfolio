@@ -29,14 +29,17 @@ const Hero = () => {
                         />
                     </h4>
                 </div>
-                <div className="bg-[#FF4D41] h-[2px] w-[40px] mt-6"></div>
+                <div className="h-[2px] w-[40px] mt-6"></div>
                 <div className="mt-4 text-xl">
                     <p>
-                        Software Delivery Management Consultant | Advisor
-                    </p>
-                    <div>
-                        <a href="#myAbout" className="btn bg-[#FF4D41] text-slate-100 px-4 py-2 rounded inline-block mt-10 font-medium border border-[#FF4D41] hover:bg-transparent hover:text-[#FF4D41] transition duration-200">Know More ...</a>
+                        Software Delivery Management
+                    </p>                    <div>
+                        <a href="#myContactUs" className="btn bg-[#FF4D41] text-slate-100 px-4 py-2 rounded inline-block mt-10 font-medium border border-[#FF4D41] hover:bg-transparent hover:text-[#FF4D41] transition duration-200">Get Your Free Delivery Capability Assessment Now!</a>
                     </div>
+                    <div>
+                        <a href="#myAbout" className="btn bg-lime-800 text-slate-100 px-4 py-2 rounded inline-block mt-10 font-medium border border-lime-800 hover:bg-transparent hover:text-green-800 transition duration-200">Know More ...</a>
+                    </div>
+
                 </div>
             </div>
         </div>
