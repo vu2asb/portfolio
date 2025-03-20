@@ -23,7 +23,7 @@ const Hero = () => {
                     <h2 className="text-[5vw] font-serif lg:text-[1.8vw] mt-8">Hi, I'm Ashok Singh</h2>
                     <h1 className="text-[4vw] font-serif lg:text-[1.2vw] text-amber-500 font-medium mt-2"> Your Partner in Optimizing Software Delivery</h1>
                     
-                    <h4 className="mt-2 text-[4vw] text-slate-100">
+                    <h4 className="text-[4vw] mt-2 lg:text-[1.2vw] text-slate-100">
                         <Typewriter
                             // words={["Hello, World!", "Welcome to Next.js!", "Tailwind is awesome!"]}
                             words={["Global Delivery", "Outsourcing", "Quality and Operational Excellence", "Cost Optimization", "Process Design and Optimization", "Delivery Transformation", "Turnaround Management", "Performance Metrics Enhancement", "Revenue Growth", "Global Competency Center (GCC)", "Delivery Capability Assessment", "Enabling Startups"]}
