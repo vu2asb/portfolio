@@ -15,13 +15,13 @@ const Hero = () => {
             {/* Content */}
             <div className="relative z-10 text-slate-100 p-[8vw]">
                 <div>
-                    <h1 className="text-3xl mt-10 md:text-4xl font-bold">Transform Your Software Delivery Capability</h1>
-                    <h1 className="text-amber-500 text-3xl font-semi-bold mt-2">Optimize | Accelerate | Excel</h1>
-                    <div className="bg-amber-800 h-[4px] w-[80px] translate-y-1 mt-5">
+                    <h1 className="text-3xl mt-10 md:text-[2.2vw] font-bold">Transform Your Software Delivery Capability</h1>
+                    <h1 className="text-amber-500 text-2xl lg:text-2xl xl:text-[2xl] font-semi-bold mt-2">Optimize | Accelerate | Excel</h1>
+                    <div className="bg-amber-800 h-[2px] w-[80px] translate-y-1 mt-5">
                     </div>
 
-                    <h2 className="text-3xl font-sans mt-8">Hi, I'm Ashok Singh</h2>
-                    <h1 className="text-2xl text-amber-500 font-medium mt-2"> Your Partner in Optimizing Software Delivery</h1>
+                    <h2 className="text-[1.5vw] font-sans mt-8">Hi, I'm Ashok Singh</h2>
+                    <h1 className="text-[] text-amber-500 font-medium mt-2"> Your Partner in Optimizing Software Delivery</h1>
                     
                     <h4 className="mt-2 text-[20px] text-slate-100">
                         <Typewriter
@@ -42,10 +42,10 @@ const Hero = () => {
                         Software Delivery Management
                     </p>                     */}
                     <div>
-                        <a href="#myContactUs" className="animate-pulse md:text-[1vw] lg:text-[1.5vw] xl:text-[1.5vw] py-1 px-4  btn bg-orange-900 text-slate-100  rounded inline-block mt-8 border border-orange-900 hover:bg-transparent hover:text-[#FF4D41] transition duration-200">Get Your Free Delivery Capability Assessment Now!</a>
+                        <a href="#myContactUs" className="animate-pulse md:text-[1vw] lg:text-[1.5vw] xl:text-[1.2vw] py-0 px-4  btn bg-red-900 text-slate-100  rounded inline-block mt-8 border border-red-900 hover:bg-transparent hover:text-[#FF4D41] transition duration-200">Get Your Free Delivery Capability Assessment Now!</a>
                     </div>
                     <div>
-                        <a href="#myAbout" className="btn xl:text-[1.5vw] bg-lime-800 text-slate-100 px-4 py-1 rounded inline-block mt-8 border border-lime-800 hover:bg-transparent hover:text-green-800 transition duration-200">Know More ...</a>
+                        <a href="#myAbout" className="btn xl:text-[1.2vw] bg-lime-800 text-slate-100 px-4 py-0 rounded inline-block mt-8 border border-lime-800 hover:bg-transparent hover:text-green-800 transition duration-200">Know More ...</a>
                     </div>
 
                 </div>
